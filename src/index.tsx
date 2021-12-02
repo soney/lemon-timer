@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom';
 import App, { AppState, getTaskIndex } from './App';
 
 import 'bootstrap/dist/css/bootstrap.css'; // bootstrap (https://getbootstrap.com/) has layout controls
-import '@fortawesome/fontawesome-free/css/all.min.css'; // fontAwesome (https://fontawesome.com/) has icons
+import '@fortawesome/fontawesome-free/css/all.css'; // fontAwesome (https://fontawesome.com/) has icons
 import './index.scss';
 import { useEffect, useState } from 'react';
 import { millisecondsToHumanString } from './Timer';
